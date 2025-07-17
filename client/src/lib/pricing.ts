@@ -38,7 +38,11 @@ export function calculatePricing(
   const adjustedBasePremium = basePremium * makeMultiplier;
   
   // Calculate add-on costs
-  const addOns = coverageInfo.addOns || {};
+  const addOns = coverageInfo.addOns || {
+    roadsideAssistance: false,
+    theftCover: false,
+    windscreenCover: false,
+  };
   const roadsideAssistance = addOns.roadsideAssistance ? ADD_ON_COSTS.roadsideAssistance : 0;
   const theftCover = addOns.theftCover ? ADD_ON_COSTS.theftCover : 0;
   const windscreenCover = addOns.windscreenCover ? ADD_ON_COSTS.windscreenCover : 0;
