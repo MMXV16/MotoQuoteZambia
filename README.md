@@ -149,7 +149,28 @@ MotoQuoteZambia/
 
 ## 🌍 Deployment
 
+This project is configured for deployment on **Vercel** - a modern hosting platform perfect for React applications.
 
+### Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MMXV16/MotoQuoteZambia)
+
+### Manual Deployment
+
+1. **Push to GitHub**: Ensure your code is in a GitHub repository
+2. **Connect to Vercel**: 
+   - Visit [vercel.com](https://vercel.com)
+   - Sign up with your GitHub account
+   - Import your repository
+3. **Deploy**: Vercel will automatically detect the configuration and deploy
+4. **Access**: Your app will be live at `https://your-project-name.vercel.app`
+
+The project includes a `vercel.json` configuration file that handles:
+- Build commands and output directory
+- SPA routing with proper redirects
+- Vite framework detection
+
+For detailed deployment instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ## 📝 License
 

@@ -2,7 +2,63 @@
 
 This guide covers different deployment options for MotoQuote Zambia.
 
-## 📄 GitHub Pages Deployment
+## � Vercel Deployment (Recommended)
+
+Vercel provides excellent support for React applications with zero configuration and is our recommended deployment platform.
+
+### Quick Deploy
+
+1. Visit [vercel.com](https://vercel.com)
+2. Sign up with your GitHub account
+3. Click **Import Project**
+4. Select your repository
+5. Vercel will auto-detect the settings, but verify:
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist/public`
+   - **Root Directory**: `./` (leave blank)
+6. Click **Deploy**
+
+### Manual Configuration
+
+The project includes a `vercel.json` file with the following configuration:
+
+```json
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/public",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+```
+
+### Custom Domain (Optional)
+
+1. In your Vercel dashboard, go to your project
+2. Click **Settings** → **Domains**
+3. Add your custom domain
+4. Follow DNS configuration instructions
+
+### Environment Variables
+
+For production deployments, you can add environment variables in the Vercel dashboard:
+
+1. Go to your project dashboard
+2. Click **Settings** → **Environment Variables**
+3. Add variables like:
+   ```
+   VITE_APP_NAME=MotoQuote Zambia
+   VITE_API_URL=https://api.motoquote.zm
+   VITE_ANALYTICS_ID=your-analytics-id
+   ```
+
+## �📄 GitHub Pages Deployment
 
 GitHub Pages is a free hosting service that's perfect for our frontend-only application.
 

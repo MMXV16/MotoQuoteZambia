@@ -7,7 +7,6 @@ export default defineConfig({
     react(),
   ],
 
-  base: process.env.NODE_ENV === 'production' ? '/MotoQuoteZambia/' : '/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
