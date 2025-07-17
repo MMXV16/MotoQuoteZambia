@@ -2,7 +2,11 @@
 
 A modern, user-friendly motor insurance quotation platform designed specifically for the Zambian market. Get instant quotes for your vehicle insurance with transparency and ease.
 
+🌐 **[Try MotoQuote Zambia Live](https://moto-quote-zambia.vercel.app/)** - Get your instant motor insurance quote now!
+
 ![MotoQuote Zambia](https://img.shields.io/badge/Made%20in-Zambia-green?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iODAiIGZpbGw9IiMwMDczZTYiLz48L3N2Zz4=)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=vercel)](https://moto-quote-zambia.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MMXV16/MotoQuoteZambia)
 
 ## 🚗 About MotoQuote Zambia
 
@@ -149,7 +153,7 @@ MotoQuoteZambia/
 
 ## 🌍 Deployment
 
-This project is configured for deployment on **Vercel** - a modern hosting platform perfect for React applications.
+This project is deployed on **Vercel** and is live at: **[https://moto-quote-zambia.vercel.app/](https://moto-quote-zambia.vercel.app/)**
 
 ### Quick Deploy to Vercel
 
