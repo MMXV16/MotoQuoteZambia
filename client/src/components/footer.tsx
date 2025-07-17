@@ -42,7 +42,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-neutral-700 dark:border-gray-800 mt-8 pt-8 text-center text-neutral-400 dark:text-gray-400">
-          <p>&copy; 2024 MotoQuote Zambia. All rights reserved.</p>
+          <p>&copy; 2025 MotoQuote Zambia. All rights reserved.</p>
         </div>
       </div>
     </footer>
